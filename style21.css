@@ -1,0 +1,346 @@
+*{
+  margin: 0%;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  padding: 0%;
+  background-image:  url(ghi.png);
+  background-position: top;
+  background-size: cover;
+}
+.Login{
+  background-color: rgb(211, 97, 211);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 95px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 25px;
+  transition: opacity 0.15s,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+}
+.Login:hover{
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+}
+.Sign-up:hover{
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+}
+
+.Sign-up{
+  background-color: rgb(219, 50, 219);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 95px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 180px;
+  transition: background-color 0.15,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+}
+.Login:hover{
+ background-color: rgb(148, 197, 148);
+ color: white;
+ font-weight: bold;
+}
+.Login:active{
+  background-color: rgb(241, 58, 58); 
+  opacity: 0.8;
+  
+}
+.Sign-up:hover{
+background-color:rgb(73, 183, 73);
+color: white;
+font-weight: bold;
+}
+.Sign-up:active{
+  background-color: rgb(231, 29, 29); 
+  opacity: 0.8;
+}
+
+.Videos{
+  background-color: red;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 90px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 400px;
+  transition: opacity 0.15s,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+  padding: 0%;
+}
+.Videos:hover{
+  background-color: rgb(148, 197, 148);
+ color: white;
+ font-weight: bold;
+}
+.Videos:active{
+  background-color: rgb(58, 82, 241); 
+  opacity: 0.8;
+}
+.Videos:hover{
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+}
+.Music{
+  background-color: red;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 90px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 400px;
+  transition: opacity 0.15s,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+  padding: 0%;
+}
+.Music:hover{
+  background-color: rgb(148, 197, 148);
+  color: white;
+  font-weight: bold;
+ }
+ .Music:active{
+  background-color: rgb(58, 82, 241);  
+  opacity: 0.8;
+}
+.Music:hover{
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+}
+.Movies{
+  background-color: red;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 90px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 400px;
+  transition: opacity 0.15s,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+  padding: 0%;
+}
+.Movies:hover{
+  background-color: rgb(148, 197, 148);
+  color: white;
+  font-weight: bold;
+ }
+ .Movies:active{
+  background-color: rgb(58, 82, 241); 
+  opacity: 0.8;
+}
+.Movies:hover{
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);}
+.SandN{
+  background-color: red;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 400px;
+  transition: opacity 0.15s,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+  padding: 0%;
+}
+.SandN:hover{
+  background-color: rgb(148, 197, 148);
+  color: white;
+  font-weight: bold;
+ }
+ .SandN:active{
+  background-color: rgb(58, 82, 241); 
+  opacity: 0.8;
+}
+.SandN:hover{
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+}
+.search-bar{
+  width: 100%;
+  max-width: 350px;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  border-radius: 30px;
+  padding: 7px 14px;
+  backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 7px 7px;
+  font-size: 10;
+  color: green;
+}
+.search-bar button img{
+width: 24px;
+}
+.search-bar button{
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background: plum;
+  cursor: pointer;
+
+}
+.Micraphone-bar{
+  width: 100%;
+  max-width: 350px;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  border-radius: 30px;
+  padding: 7px 14px;
+  backdrop-filter: blur(4px) saturate(180%);
+}
+
+.Micraphone-bar button img{
+  width: 24px;
+}
+  .Micraphone-bar button{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background: plum;
+    cursor: pointer;
+  }
+ .CHfm{
+  background-color: rgb(211, 97, 211);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 95px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 25px;
+  transition: opacity 0.15s,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+ }
+ .Help{background-color: rgb(211, 97, 211);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 95px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 25px;
+  transition: opacity 0.15s,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+}
+.Help:hover{
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+ }
+ .Login:active{
+  background-color: rgb(241, 58, 58); 
+  opacity: 0.8;}
+ .b1{
+  background-color: rgb(56, 50, 219);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 95px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 180px;
+  transition: background-color 0.15,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+ }
+ .b1:hover{
+  background-color:rgb(73, 183, 73);
+  color: white;
+  font-weight: bold;
+  }
+  .b1:active{
+    background-color: rgb(164, 29, 231); 
+    opacity: 0.8;
+  }
+ .b2{
+  background-color: rgb(56, 50, 219);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 95px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 180px;
+  transition: background-color 0.15,
+  color 0.15s;
+  transition: box-shadow 0.15s;
+ }
+ .b2:hover{
+  background-color:rgb(73, 183, 73);
+  color: white;
+  font-weight: bold;
+  }
+  .b2:active{
+    background-color: rgb(164, 29, 231); 
+    opacity: 0.8;
+  }
+  .b3{
+    background-color: rgb(50, 183, 23);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 95px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 180px;
+    transition: background-color 0.15,
+    color 0.15s;
+    transition: box-shadow 0.15s;
+   }
+   .b3:hover{
+    background-color:rgb(244, 99, 15);
+    color: white;
+    font-weight: bold;
+    }
+    .b3:active{
+      background-color: rgb(164, 29, 231); 
+      opacity: 0.8;
+    }
+    .about-us{
+      background-color: rgb(50, 183, 23);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 95px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 180px;
+      transition: background-color 0.15,
+      color 0.15s;
+      transition: box-shadow 0.15s;
+     }
+     .about-us:hover{
+      background-color:rgb(244, 99, 15);
+      color: white;
+      font-weight: bold;
+      }
+      .about-us:active{
+        background-color: rgb(164, 29, 231); 
+        opacity: 0.8;
+      }
+    
+.MVV{
+  width: 100%;
+}
+    
+ 
